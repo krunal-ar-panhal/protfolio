@@ -48,7 +48,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 md:mt-20 mt-20">
+          <div className="order-1 md:order-2 md:mt-16 mt-5">
             <img src="/profile.png" alt="" className="md:w-[450px] md:h-[450px]  md:ml-44"/></div>
         </div>
           <hr className="border border-black"/>

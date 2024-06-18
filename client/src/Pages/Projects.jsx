@@ -12,9 +12,10 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="bg-zinc-300 min-h-screen pt-16"> {/* Added pt-16 for padding */}
-        <div className="md:max-w-6xl md:mx-auto ml-4 mr-4 pb-16">
-          <h1 className="md:text-4xl text-2xl font-semibold">Projects</h1>
+    <div>
+      <div className="bg-zinc-300 md:min-h-screen h-auto pb-9">
+        <div className="md:max-w-6xl md:mx-auto ml-4 mr-4 ">
+          <h1 className="md:text-4xl text-2xl font-semibold pt-10">Projects</h1>
           <div className="flex flex-col gap-10 mt-10 md:grid md:grid-cols-3 ">
             {cardItem.map(({ id, logo, name }) => (
               <div
@@ -44,6 +45,8 @@ export const Projects = () => {
             ))}
           </div>
         </div>
+      </div>
+      <hr className="border border-black"/>
       </div>
     </>
   );

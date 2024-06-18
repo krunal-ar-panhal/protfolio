@@ -14,7 +14,7 @@ export const About = () => {
   return (
     <div>
     <div className="bg-slate-300 md:pt-16 pt-8 min-h-screen">
-      <div className="md:max-w-6xl md:mx-auto ml-4 mr-4 md:pb-16 pb-8">
+      <div className="md:max-w-6xl md:mx-auto ml-4 mr-4  pb-10">
         <div>
         <h1 className="md:text-4xl text-2xl  font-semibold ">About</h1>
         
